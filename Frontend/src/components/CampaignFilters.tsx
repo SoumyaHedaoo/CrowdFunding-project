@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { Search, Filter, SlidersHorizontal } from "lucide-react"
+import { Search, SlidersHorizontal } from "lucide-react"
 
 type FilterOptions = {
     search: string

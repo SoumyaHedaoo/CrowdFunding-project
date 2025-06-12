@@ -1,5 +1,4 @@
 import { ReactNode } from 'react';
-import { Sidebar } from './sidebar';
 import { Navbar } from './navbar';
 
 interface LayoutProps {
@@ -11,7 +10,6 @@ export const Layout = ({ children }: LayoutProps) => {
     <div className="relative min-h-screen bg-[#000000] flex flex-row text-gray-300">
       {/* Sidebar */}
       <div className="sm:flex hidden mr-8">
-        <Sidebar />
       </div>
 
       {/* Main Content */}

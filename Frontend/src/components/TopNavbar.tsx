@@ -5,7 +5,6 @@ import { CustomButton } from "./customButton"
 import { navlinks } from "../constants"
 import { StateContext } from "../contexts"
 import { metamaskWallet } from "@thirdweb-dev/react"
-import { SidebarIcon as Icon } from "./sidebarIcon"
 
 export function TopNavbar() {
     const navigate = useNavigate()

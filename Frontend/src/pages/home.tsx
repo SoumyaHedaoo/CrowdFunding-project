@@ -1,6 +1,6 @@
 import { useContext, useEffect, useState } from "react"
 import { StateContext } from "../contexts"
-import { Heart, Users, Target, Clock, Search, Shield, Globe } from "lucide-react"
+import { Heart, Shield, Globe } from "lucide-react"
 import DisplayCampaigns from "../components/displayCampaigns"
 import { CampaignFilters } from "../components/CampaignFilters"
 import { CampaignStats } from "../components/CampaignStats"

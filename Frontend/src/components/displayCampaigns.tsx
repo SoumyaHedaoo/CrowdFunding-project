@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom"
-import { calculateBarPercentage, daysLeft } from "../utils"
+import {  daysLeft } from "../utils"
 import { Calendar, Users, TrendingUp, ExternalLink } from "lucide-react"
 
 type ParsedCampaign = {

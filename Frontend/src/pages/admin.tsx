@@ -1,6 +1,5 @@
 import { useContext, useEffect, useState } from "react";
 import { useNavigate  } from "react-router-dom";
-import { Loader } from "../components/loader";
 import { StateContext } from "../contexts";
 
 export function AdminDashboard() {
